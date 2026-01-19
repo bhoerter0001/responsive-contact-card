@@ -85,14 +85,14 @@ body {
 
 @media (min-width: 500px) {
     .contact-card {
-        max-width: 900px;
+        max-width: 540px;
         padding: 28px;
         gap: 24px;
     }
 
     .image {
-        width: 260px;
-        height: 260px;
+        width: 220px;
+        height: 220px;
     }
 
     .card-content {
@@ -109,7 +109,7 @@ body {
     }
 }
 
-@media (min-wdith: 768px) {
+@media (min-width: 768px) {
     .contact-card {
         max-width: 900px;
         flex-direction: row;
@@ -121,13 +121,12 @@ body {
     .image {
         width: 260px;
         height: 260px;
-        flex-shrink: 0;
     }
 
     .card-content {
         flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
+        align-items: flex-end;
         text-align: left;
         gap: 12px;
     }
@@ -141,10 +140,7 @@ body {
 
     .detail {
         width: 100%;
-        justify-content: center;
+        justify-content: flex-start;
 
     }
-    
-
-
 }
